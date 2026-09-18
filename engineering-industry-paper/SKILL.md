@@ -15,6 +15,8 @@ Depth is not more formulas, citations, experiments, statistics, terminology, or 
 
 Steps are not ceremonies. Where trustworthy work already exists — a scope decision, a verified source list, a manuscript — it is reused and only the missing steps run.
 
+**Verification is direct contact.** A check completes only when the underlying object has been inspected in the form relevant to the claim: the opened source and supporting passage, the producer artifact behind an empirical claim, or the rendered page at delivery size. Ledgers and reports preserve locations, findings, and dispositions; they do not establish that the inspection occurred, and generating an artifact does not establish that anyone inspected it. Where independence is required, only the independent read satisfies the step. Without direct contact, leave the check open or narrow the claim.
+
 ## Ledger
 
 Long-lived facts live in a `paper/` directory in the project, not only in the conversation.

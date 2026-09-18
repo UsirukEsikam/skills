@@ -4,7 +4,7 @@ Two axes, both required. A paper can be entirely accurate and still not worth re
 
 Run truth and substance as distinct reads. The truth read needs independence from the authoring context: when fresh context is available, give a fresh reviewer `manuscript.md`, the ledger, and the primary artifacts that produced the evidence. It starts from those artifacts and reconstructs the load-bearing claim-to-producer paths; the ledger may locate evidence but cannot settle what the evidence is. The substance read takes the position of a skeptical technical peer. Independence is the reason to separate the reads, not parallelism or reviewer count.
 
-Write `review.md` as the reads run. Completion evidence is the truth claim-to-producer findings, the substance verdict for every major section, each finding's disposition, and whether fresh context was used; when it was unavailable, record that limit.
+Write `review.md` as the reads run. It preserves the truth claim-to-producer findings, the substance verdict for every major section, each finding's disposition, and whether fresh context was used; when it was unavailable, record that limit. The record is an output of the reads, not evidence that they occurred.
 
 ## Truth
 

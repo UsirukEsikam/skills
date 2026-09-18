@@ -34,4 +34,4 @@ Substance agreed is not the document working. The build passes two gates: inspec
 - Headings, captions, and the reference list are styled as such rather than as body text. Pagination strands no heading from its content and leaves no figure where its text cannot reach it.
 - Read the rendered pages at delivery size. Equations, punctuation, quotations, tables, and figures must look correct to the reader, not merely exist in the package.
 
-A defect found here is fixed at its source — the manuscript, the asset, or the assembly step — and the document is rebuilt and both gates rerun. Gate evidence is a retained render of the final DOCX (PDF or page images) and an inspection record covering every page, alongside the structural scan. Delivery waits for both.
+A defect found here is fixed at its source — the manuscript, the asset, or the assembly step — and the document is rebuilt and both gates rerun. Retain the final render (PDF or page images), the structural scan, and the inspection record covering every page as outputs of the gates, not substitutes for running them. Delivery waits until the final retained render itself has been read page by page.
