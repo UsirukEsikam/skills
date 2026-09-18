@@ -1,12 +1,12 @@
 ---
-name: engineering-industry-paper-topics
+name: engineering-paper-topics
 description: Develop and approve focused topics for engineering or industry application papers.
 disable-model-invocation: true
 ---
 
-# Engineering industry paper topics
+# Engineering paper topics
 
-Select topics through discussion, then preserve each approved topic as a compact input to `engineering-industry-paper`.
+Select topics through discussion, then preserve each approved topic as a compact input to `engineering-paper`.
 
 The governing test is **length-fit**: the topic must support meaningful engineering depth inside the allowed paper length. Favor concrete engineering problems that can sustain substantive analysis, implementation, validation, operating experience, or another useful technical treatment. Academic novelty is not required.
 
@@ -93,8 +93,8 @@ Each file contains only established downstream context under these headings, omi
 <Material user decisions and verified facts, with source links or supplied-material locations where applicable>
 ```
 
-Point to supplied material by path instead of copying it. Preserve only facts and decisions needed to start `engineering-industry-paper`; leave exploratory conversation, rejected candidates, generic background, and selection-process notes out of the file.
+Point to supplied material by path instead of copying it. Preserve only facts and decisions needed to start `engineering-paper`; leave exploratory conversation, rejected candidates, generic background, and selection-process notes out of the file.
 
-Do not add an outline, section plan, thesis, argument structure, research plan, implementation design, validation design, or prose intended for the paper. Those belong to `engineering-industry-paper`.
+Do not add an outline, section plan, thesis, argument structure, research plan, implementation design, validation design, or prose intended for the paper. Those belong to `engineering-paper`.
 
 **Done when** every approved topic has one file in `paper-topics/`, every file records the applicable length constraint and scope boundary, and no unapproved topic or downstream paper work appears in the files.
