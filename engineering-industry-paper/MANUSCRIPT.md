@@ -39,7 +39,7 @@ Tables carry comparisons, parameters, and mappings that prose would make hard to
 
 Optional, and frequently the wrong choice — prose, a table, or three lines of pseudocode often carry the same information in less space. A figure earns its place when it shows structure or behaviour that words leave the reader reconstructing.
 
-Constructed diagrams and plots get a reproducible programmable source where practical, and publication-quality output at the size the final document uses; no particular tool or file format is required. Original evidence images — photographs, screenshots, captures — are used as they are.
+Constructed diagrams and plots get a reproducible programmable source where practical. Aim for a **publication figure, not a slide**: restrained ink and colour, no decorative panels, only the visual encoding the engineering relationship needs, and labels legible at final print size. No particular tool or file format is required. Original evidence images — photographs, screenshots, captures — are used as they are.
 
 Generating a figure and assembling the document are separate jobs. Produce the asset first; assembly places a finished asset.
 

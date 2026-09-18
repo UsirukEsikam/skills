@@ -26,6 +26,7 @@ Long-lived facts live in a `paper/` directory in the project, not only in the co
 | `sources.md` | Every external source, what it was checked for, the passage supporting each claim |
 | `evidence.md` | Each paper claim, the rung its evidence sits on, the provenance of each number |
 | `open.md` | The single home for open questions: what only the author can answer, and their answers as they arrive |
+| `review.md` | The truth and substance findings, their disposition, and whether the truth read used fresh context |
 | `manuscript.md` | The editable paper — the single source of truth for the deliverable |
 | `figures/` | Generated assets and the sources that produced them |
 
@@ -35,9 +36,9 @@ Adapt the set to the job. What matters: a later session, a subagent, or the auth
 
 ### 1. Read the brief
 
-Extract the requirements and the facts the author supplied — including the ones dropped in passing, which are the ones most often lost. Write them down first; where the author supplied material that already exists as a document, record where it is and the facts the paper will draw from it, rather than a copy of it. A requirement the brief does not state — length above all — is a question for the author, not a default.
+Extract the requirements and the facts the author supplied — including the ones dropped in passing, which are the ones most often lost. Write them down first; where the author supplied material that already exists as a document, record where it is and the facts the paper will draw from it, rather than a copy of it. Classify each supplied artifact by role: evidence, author material, submission requirement, or format calibration. A format-calibration artifact contributes layout and format properties only; its claims, identities, numbers, subject matter, citations, and bibliography are outside the paper's content sources. A requirement the brief does not state — length above all — is a question for the author, not a default.
 
-**Done when** the requirement set is in `brief.md`, the facts the paper relies on are in the ledger marked as the author's or traceable to the author's material by location, and any missing requirement is in `open.md`. Everything else is yours to establish.
+**Done when** the requirement set and artifact roles are in `brief.md`, the facts the paper relies on are in the ledger marked as the author's or traceable to the author's material by location, and any missing requirement is in `open.md`. Everything else is yours to establish.
 
 ### 2. Grill the center
 
@@ -75,9 +76,9 @@ Read [MANUSCRIPT.md](MANUSCRIPT.md).
 
 ### 6. Review
 
-Read [REVIEW.md](REVIEW.md). Separate the truth read from the substance read; where the environment allows, the truth reviewer has not seen the authoring conversation and receives the primary evidence as well as the ledger.
+Read [REVIEW.md](REVIEW.md). Separate the truth read from the substance read. When the environment provides fresh context, run the truth read there: the reviewer has not seen the authoring conversation and receives the primary evidence as well as the ledger.
 
-**Done when** every load-bearing empirical claim has been checked at its producer, every major section carries a verdict — keep, deepen, or cut — reached on substance as well as truth, and every finding is fixed in the manuscript or recorded as an accepted limit. A center that review shows to be too thin sends the work back to step 2.
+**Done when** `review.md` records the two reads and their dispositions, every load-bearing empirical claim has been checked at its producer, every major section carries a verdict — keep, deepen, or cut — reached on substance as well as truth, and every finding is fixed in the manuscript or recorded as an accepted limit. A center that review shows to be too thin sends the work back to step 2.
 
 ### 7. Deliver
 
@@ -85,7 +86,7 @@ When the deliverable is a DOCX, assemble it from `manuscript.md`.
 
 Read [ASSEMBLY.md](ASSEMBLY.md).
 
-**Done when** the DOCX holds nothing the manuscript does not, every table and figure traces to its source, extracted text and structure pass a mechanical parity scan, and the rendered pages have been inspected at delivery size with equations, punctuation, tables, and figures intact.
+**Done when** the DOCX holds nothing the manuscript does not, every table and figure traces to its source, extracted text and structure pass a mechanical parity scan, and a retained render of the final DOCX has been inspected page by page at delivery size with equations, punctuation, tables, and figures intact.
 
 ## Subagents
 

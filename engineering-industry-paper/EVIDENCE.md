@@ -36,7 +36,7 @@ No number enters the manuscript without provenance and meaning: where it came fr
 
 ## Facts
 
-Every fact in the paper traces to the author, to a checked source, or to a run you performed. Where the paper needs a fact you do not have, it goes to `open.md` for the author; where the author cannot supply it, the claim changes or the section goes. Fabricated deployment facts, enterprise data, project experience, measurements, users, or results are the one failure this workflow cannot repair afterwards.
+Every fact in the paper traces to the author, to a checked source, or to a run you performed. Author-owned facts — names, affiliations, contact details, deployment organizations, and private project particulars — remain explicit placeholders or open questions until the author supplies them. Where the paper needs a fact you do not have, it goes to `open.md` for the author; where the author cannot supply it, the claim changes or the section goes. Fabricated deployment facts, enterprise data, project experience, measurements, users, or results are the one failure this workflow cannot repair afterwards.
 
 ## Bounded statements
 

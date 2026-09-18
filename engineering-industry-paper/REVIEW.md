@@ -2,7 +2,9 @@
 
 Two axes, both required. A paper can be entirely accurate and still not worth reading.
 
-Run truth and substance as distinct reads. The truth read needs independence from the authoring context: where the environment allows, give a fresh reviewer `manuscript.md`, the ledger, and the primary artifacts that produced the evidence. It starts from those artifacts and reconstructs the load-bearing claim-to-producer paths; the ledger may locate evidence but cannot settle what the evidence is. The substance read takes the position of a skeptical technical peer. Independence is the reason to separate the reads, not parallelism or reviewer count.
+Run truth and substance as distinct reads. The truth read needs independence from the authoring context: when fresh context is available, give a fresh reviewer `manuscript.md`, the ledger, and the primary artifacts that produced the evidence. It starts from those artifacts and reconstructs the load-bearing claim-to-producer paths; the ledger may locate evidence but cannot settle what the evidence is. The substance read takes the position of a skeptical technical peer. Independence is the reason to separate the reads, not parallelism or reviewer count.
+
+Write `review.md` as the reads run. Completion evidence is the truth claim-to-producer findings, the substance verdict for every major section, each finding's disposition, and whether fresh context was used; when it was unavailable, record that limit.
 
 ## Truth
 
@@ -13,6 +15,8 @@ Run truth and substance as distinct reads. The truth read needs independence fro
 - Was every cited source actually opened, and does it support the claim as written?
 - Are standards and regulations used for constraints and operating conditions rather than as proof that a mechanism works?
 - Does every reference carry a role in the paper, cited where it bears, with none present only to reach a count?
+
+Finish a **two-way citation trace**: each load-bearing external claim reaches an opened source and supporting passage in `sources.md`; each bibliography entry reaches a place where it bears in the manuscript and the same checked source record. Discovery results and snippets do not close either direction.
 
 Any statement the paper makes about its sources having been checked is backed by `sources.md`. The truth read is complete when every load-bearing empirical claim has been checked at its producer, not merely matched to a ledger row.
 
