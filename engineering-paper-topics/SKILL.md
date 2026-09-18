@@ -12,6 +12,8 @@ Topic selection fixes the **territory**: the engineering problem, its applicatio
 
 A title obeys the same boundary. It may name a technology when that technology is the application context, object under study, or an established constraint; it must not turn an agent-proposed solution into part of the approved topic.
 
+Apply a **provenance gate** throughout candidate discussion and topic files. State a fact or constraint as established only when it is traceable to the user, submission requirements, supplied material, an existing system, or a trustworthy source. Agent synthesis may propose territory and assess fit, but it remains a proposal or assessment; it does not establish inferred facts or downstream choices.
+
 The governing test is **length-fit**: the topic must support meaningful engineering depth inside the allowed paper length. Favor concrete engineering problems for which enough engineering substance and evidence are available or realistically obtainable. Academic novelty is not required.
 
 A topic is:
@@ -52,9 +54,11 @@ For each plausible territory, test:
 
 Narrow broad ideas by choosing the engineering setting, system boundary, operating constraint, failure mode, or tightly related problem set that carries the most substance. Broaden thin ideas only with closely coupled problems or evidence that deepen the same territory; do not attach unrelated subtopics merely to fill space.
 
+Run a **pressure scan** across the plausible territories: look for recent or emerging changes in operating conditions, standards, regulation, scale, cost, reliability, security, workflows, or deployment constraints that create or materially alter the engineering problem. Use a pressure only when it is concrete and supported; a fashionable technology label is not a reason to prefer a candidate. Among territories that pass all five tests, prefer those with a stronger application consequence, sharper unresolved tension, or better-supported reason the problem is worth addressing now. A conventional territory remains valid when no more distinctive current problem genuinely fits.
+
 When a current factual question about a technology, practice, trend, or problem could change a candidate's suitability, verify that fact with available trustworthy sources. Research only the decision-changing question, and retain the source and supported fact for the eventual topic file. Skip external research when the supplied material already supports the selection decision.
 
-**Done when** a small set of distinct candidates passes all five tests.
+**Done when** a small set of distinct candidates passes all five tests and any claimed current pressure is supported.
 
 ### 3. Propose and discuss candidates
 
@@ -63,10 +67,11 @@ Present a small number of distinct candidates, usually **1–3**, according to h
 - a working topic or title that names the problem and context without committing to an unestablished route;
 - the concrete focus;
 - why it fits the submission and the user's context;
+- why the problem is worth addressing now, when a supported current pressure gives it that edge;
 - why its scope fits the allowed length, including the main boundary that keeps it focused;
 - any material feasibility condition or uncertainty.
 
-Keep these explanations short. Do not outline sections, design the paper's argument, or begin the downstream paper work.
+Keep these explanations short and pass every factual statement through the provenance gate. Describe feasibility in terms of available access, evidence, capability, and time rather than by inventing an implementation or validation route. Do not outline sections, design the paper's argument, or begin the downstream paper work.
 
 The user owns acceptance. Ask which candidate they approve or want changed. If they question, reject, combine, narrow, or broaden a candidate, address the concern and revise the candidate set. Reapply all five tests after every material scope change; do not treat an earlier fit judgment as carrying over automatically.
 
@@ -91,7 +96,7 @@ Each file contains only established downstream context under these headings, omi
 <What is included and the adjacent territory deliberately excluded>
 
 ## Why this topic fits
-<Concise rationale covering application value, substance, feasibility, and length-fit>
+<Concise rationale covering application value, substance, feasibility, length-fit, and any supported current pressure that materially strengthens the topic>
 
 ## Established facts and decisions
 <Material user-supplied facts or constraints and selection-relevant verified facts, with source links or supplied-material locations where applicable>
