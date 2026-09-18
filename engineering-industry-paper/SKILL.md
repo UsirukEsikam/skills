@@ -1,11 +1,13 @@
 ---
 name: engineering-industry-paper
-description: Write an engineering-practice paper (工程实践论文 / 技术应用论文) that commits to one focused engineering problem and develops it in depth. Use when asked to write, draft, narrow, or revise a technical or industry paper — from a title, a project, a dataset, an outline, or a draft — including Chinese submissions and the DOCX they require.
+description: Write or revise an engineering-practice paper (工程实践论文 / 技术应用论文) from an approved topic, developing one focused engineering problem in depth. Use for technical or industry papers, including Chinese submissions and the DOCX they require.
 ---
 
 # Engineering practice paper
 
 A paper for engineering application: an engineer explaining a concrete piece of work to technical peers, built around **one focused engineering problem developed in depth**.
+
+This skill begins with an **approved topic**. It may come from `engineering-industry-paper-topics` or directly from the user; no handoff artifact is required. The approved topic fixes the substantive territory. Preserve any scope boundaries the user or topic-selection output states explicitly; where detailed boundaries are absent, establish them while grilling the center. Execution refines the paper's center, commitments, mechanism, claims, evidence, depth, and fit inside that topic. A move outside the topic's territory or an explicit boundary is a topic change: return it to the user or the topics skill rather than making it silently.
 
 The default failure is **survey drift**: the topic contains many engineering problems, the draft covers many of them, and the result is structurally complete with nothing a peer can reuse. Every step below exists to hold the paper against that pull.
 
@@ -38,19 +40,21 @@ Adapt the set to the job. What matters: a later session, a subagent, or the auth
 
 ### 1. Read the brief
 
+Identify the approved topic from the user's instruction or supplied material and record it with any stated boundaries. A topic file from `engineering-industry-paper-topics` is one possible input, not a prerequisite. If the material supplies only a broad direction, project, or dataset and no topic has been approved, stop and ask the user to provide one or use the topics skill; do not select one here.
+
 Extract the requirements and the facts the author supplied — including the ones dropped in passing, which are the ones most often lost. Write them down first; where the author supplied material that already exists as a document, record where it is and the facts the paper will draw from it, rather than a copy of it. Classify each supplied artifact by role: evidence, author material, submission requirement, or format calibration. A format-calibration artifact contributes layout and format properties only; its claims, identities, numbers, subject matter, citations, and bibliography are outside the paper's content sources. A requirement the brief does not state — length above all — is a question for the author, not a default.
 
-**Done when** the requirement set and artifact roles are in `brief.md`, the facts the paper relies on are in the ledger marked as the author's or traceable to the author's material by location, and any missing requirement is in `open.md`. Everything else is yours to establish.
+**Done when** the approved topic and any stated boundaries, the requirement set, and artifact roles are in `brief.md`; the facts the paper relies on are in the ledger marked as the author's or traceable to the author's material by location; and any missing requirement is in `open.md`. Everything else is yours to establish.
 
 ### 2. Grill the center
 
-The load-bearing step. From the brief, propose candidate centers and interrogate each against **fit**, and for the depth that makes it worth the space. Gather the facts yourself; put to the author only what turns on author intent, real-world facts you cannot reach, project experience, private material, or a choice that would move the center.
+The load-bearing step. Within the approved topic, propose candidate centers and interrogate each against **fit**, and for the depth that makes it worth the space. Gather the facts yourself; put to the author only what turns on author intent, real-world facts you cannot reach, project experience, private material, or a choice that would move the center.
 
-The center is the one decision that always goes to the author, unless they have explicitly delegated it; where they have, decide it yourself and do not send it back for confirmation. Narrowing the title is part of this step: the title follows the center.
+The center is the one decision that always goes to the author, unless they have explicitly delegated it; where they have, decide it yourself and do not send it back for confirmation. Refining the center or title must preserve the approved topic's substantive territory and any explicitly stated boundaries. Where detailed boundaries were not supplied, establish them through this grilling. A candidate outside the territory or an explicit boundary is a proposed topic change and requires explicit user approval. Narrowing the title is part of this step: the title follows the center.
 
 Read [GRILLING.md](GRILLING.md).
 
-**Done when** one center is chosen and argued, every rejected candidate carries a reason, and every open question is answered or recorded in `open.md`. Drafting waits on the center being settled — by the author's answer, or by your own decision where they delegated it.
+**Done when** one center inside the approved topic is chosen and argued, every rejected candidate carries a reason, and every open question is answered or recorded in `open.md`. Drafting waits on the center being settled — by the author's answer, or by your own decision where they delegated it.
 
 ### 3. Check standing practice
 

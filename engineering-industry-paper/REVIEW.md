@@ -29,7 +29,7 @@ Apply **the peer test** ([MANUSCRIPT.md](MANUSCRIPT.md)) to every major section.
 - **Thin** — one claim rehearsed at length, or a mechanism stated without what it cost, what it failed on, or how it is recognised.
 - **Conformance-dominated** — space given to evidence that the implementation matches rules the author wrote, at the cost of material a peer would want.
 
-Give each major section a verdict: **keep**, **deepen**, or **cut**. A section that cannot be deepened within the space is cut, and the freed space goes to the deepest section rather than to a new topic. If cutting leaves too little, the center was too thin and the work returns to step 2.
+Give each major section a verdict: **keep**, **deepen**, or **cut**. A section that cannot be deepened within the space is cut, and the freed space goes to the deepest section rather than to a new topic. If cutting leaves too little, the center was too thin and the work returns to step 2. If no stronger center exists inside the approved topic, return the topic-fit problem to the user rather than substituting a new topic.
 
 Then make one clean prose pass using **show, then stop**: where the paper praises, certifies, or announces the quality of its own solution, keep the engineering fact, evidence, boundary, or tradeoff and remove the verdict. Remove workflow terminology that does no work for the reader.
 

@@ -6,7 +6,7 @@ Before a mechanism is written as the paper's contribution, find out how working 
 
 Look where practice lives — standards and their amendments, vendor and platform documentation, regulator guidance and enforcement notes, reference implementations and their issue trackers, engineering write-ups from teams running the system, published practice reports.
 
-Then name the gap in engineering terms. Not "no prior work exists", but the specific way current practice stops short: an assumption that fails under this constraint, a control that does not cover this data path, a technique that does not survive this scale, a documented behaviour the documentation omits. When standing practice already covers the problem, the honest outcomes are that the paper's contribution is the part that is genuinely different, however small, or that the center moves.
+Then name the gap in engineering terms. Not "no prior work exists", but the specific way current practice stops short: an assumption that fails under this constraint, a control that does not cover this data path, a technique that does not survive this scale, a documented behaviour the documentation omits. When standing practice already covers the problem, the honest outcomes are that the paper's contribution is the part that is genuinely different, however small, or that the center moves within the approved topic. A move beyond the approved boundaries goes back to the user as a proposed topic change.
 
 ## Enough
 

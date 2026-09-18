@@ -2,7 +2,7 @@
 
 The output of this conversation is a center, the depth that makes it worth the space, and the evidence that exists for it — not a research design. No research questions, no hypotheses, no formal models, no planned experiment schedule unless the chosen problem genuinely needs one.
 
-The brief is an input, not the scope. A title, direction, project, dataset, outline, or draft says where to look; the center is chosen from what the material and evidence will actually carry.
+The approved topic sets the substantive territory; preserve any scope boundaries stated explicitly in the brief. Where detailed boundaries were not supplied, establish them here as the brief and evidence determine the center the paper can carry. The center may sharpen the topic into a specific mechanism, claim, or engineering lesson, but it does not select a different topic. If every viable center would leave the topic's territory or cross an explicit boundary, return that conflict to the user rather than changing the topic silently.
 
 Fit decides whether a candidate is affordable in the space; depth decides whether it is worth reading.
 
@@ -15,7 +15,7 @@ Write them on one page: for each, the **mechanism**, the **claim** the paper wil
 The length is the one the brief states. With none stated, ask before committing: every verdict below is a verdict about a space.
 
 - The page overflows → the center is too broad. Narrow the center and keep the depth. General background, high-level architecture, and a list of best practices are what breadth converts into.
-- The page is nearly empty → the center is too shallow. Go deeper into it, and if going deeper keeps yielding nothing consequential, replace the center rather than growing this one.
+- The page is nearly empty → the center is too shallow. Go deeper into it, and if going deeper keeps yielding nothing consequential, replace the center with a stronger one inside the approved topic rather than growing this one. If none exists, return the topic-fit problem to the user.
 - The page fits → check each row's rung in [EVIDENCE.md](EVIDENCE.md) before committing.
 
 Length alone does not make the page fit. Every row must be affordable at the depth the paper promises: enough space to explain the mechanism, the pressure behind it, the evidence, and the bound that matters. A named mechanism that can receive only a label or paragraph is a commitment to remove, not a topic to compress.
@@ -30,7 +30,7 @@ Fit says the center is affordable. This says it has something to teach. Ask what
 
 The strongest form is a **fork** — a consequential choice where a competent engineer could plausibly go the other way. The lesson is the choice, the pressure that produced it, and the cost of the road not taken. Forks look like: which constraint to respect and which to relax; where to put a boundary; what to fail on and what to degrade; how to sequence a migration; what to keep out of the trusted path; which of two mechanisms to pay for; when to stop retrying.
 
-A fork is not required. A center with no real choice in it still carries depth when it explains what a peer could not have worked out alone: a **mechanism** that is not obvious, a failure path and how it is recognised, a root cause, a constraint interaction that only shows up in operation. What fails is a center that only restates what a competent engineer would already do — replace it rather than expanding it, because padding a forced design produces length without substance.
+A fork is not required. A center with no real choice in it still carries depth when it explains what a peer could not have worked out alone: a **mechanism** that is not obvious, a failure path and how it is recognised, a root cause, a constraint interaction that only shows up in operation. What fails is a center that only restates what a competent engineer would already do — replace it within the approved topic rather than expanding it, because padding a forced design produces length without substance.
 
 Any fork you name is one the work actually faced. A choice invented to give the paper a lesson is a fabricated fact about the work.
 
