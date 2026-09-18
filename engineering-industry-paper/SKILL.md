@@ -63,7 +63,7 @@ Whatever the center needs: an implementation, a measurement, an analysis, a desi
 
 Read [EVIDENCE.md](EVIDENCE.md).
 
-**Done when** every commitment in the paper has evidence you actually hold, at a rung you can name, and every claim that outran its evidence has been narrowed rather than defended.
+**Done when** every commitment in the paper has evidence you actually hold, its rung has been assigned from the primary artifact that produced it, every number reaches its producer, and every claim that outran its evidence has been narrowed rather than defended.
 
 ### 5. Draft the manuscript
 
@@ -75,9 +75,9 @@ Read [MANUSCRIPT.md](MANUSCRIPT.md).
 
 ### 6. Review
 
-Read [REVIEW.md](REVIEW.md). Fresh eyes where the environment allows — a reviewer that has not seen this conversation.
+Read [REVIEW.md](REVIEW.md). Separate the truth read from the substance read; where the environment allows, the truth reviewer has not seen the authoring conversation and receives the primary evidence as well as the ledger.
 
-**Done when** every major section carries a verdict — keep, deepen, or cut — reached on substance as well as truth, and every finding is fixed in the manuscript or recorded as an accepted limit. A center that review shows to be too thin sends the work back to step 2.
+**Done when** every load-bearing empirical claim has been checked at its producer, every major section carries a verdict — keep, deepen, or cut — reached on substance as well as truth, and every finding is fixed in the manuscript or recorded as an accepted limit. A center that review shows to be too thin sends the work back to step 2.
 
 ### 7. Deliver
 
@@ -85,7 +85,7 @@ When the deliverable is a DOCX, assemble it from `manuscript.md`.
 
 Read [ASSEMBLY.md](ASSEMBLY.md).
 
-**Done when** the DOCX holds nothing the manuscript does not, every table and figure traces to its source, a parity read of the two finds no divergence in substance, and the built document itself was opened and inspected — equations rendering as mathematics rather than markup or plain text, no residual Markdown, and every table and figure landing whole inside the text block.
+**Done when** the DOCX holds nothing the manuscript does not, every table and figure traces to its source, extracted text and structure pass a mechanical parity scan, and the rendered pages have been inspected at delivery size with equations, punctuation, tables, and figures intact.
 
 ## Subagents
 

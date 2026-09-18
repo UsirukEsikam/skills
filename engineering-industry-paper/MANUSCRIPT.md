@@ -4,9 +4,9 @@ Written in the submission language. `manuscript.md` is the source of truth: the 
 
 ## Voice
 
-An engineer explaining a concrete piece of work to technical peers. Concrete actors, components, actions, data flow, decisions, observations, consequences, tradeoffs — the specific instance ahead of the general statement: which component, which message, which threshold, which failure mode, at what cost.
+An engineer explaining a concrete piece of work to a skeptical technical peer. **Show, then stop**: state the mechanism, observation, boundary, or tradeoff and let the peer judge it. When a sentence delivers a verdict on the work, replace the verdict with the engineering fact that earns it. Concrete actors, components, actions, data flow, decisions, observations, consequences, tradeoffs — the specific instance ahead of the general statement: which component, which message, which threshold, which failure mode, at what cost.
 
-Write for the peer. Phrasing squeezed to look human-made costs the clarity a technical reader depends on.
+Write for the peer. Phrasing squeezed to look human-made costs the clarity a technical reader depends on. Workflow labels are scaffolding: translate them into the reader's engineering terms or leave them out.
 
 Chinese drafts: fix a term once and keep it, give sentences concrete subjects rather than opening paragraphs with template phrasing such as 综上所述 or 本文提出了一种…方案, and let the verbs carry the engineering.
 

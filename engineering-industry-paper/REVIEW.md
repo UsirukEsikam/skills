@@ -2,17 +2,19 @@
 
 Two axes, both required. A paper can be entirely accurate and still not worth reading.
 
-Fresh eyes help: where the environment allows, dispatch a reviewer that has not seen this conversation and hand it `manuscript.md` and the ledger rather than the history.
+Run truth and substance as distinct reads. The truth read needs independence from the authoring context: where the environment allows, give a fresh reviewer `manuscript.md`, the ledger, and the primary artifacts that produced the evidence. It starts from those artifacts and reconstructs the load-bearing claim-to-producer paths; the ledger may locate evidence but cannot settle what the evidence is. The substance read takes the position of a skeptical technical peer. Independence is the reason to separate the reads, not parallelism or reviewer count.
 
 ## Truth
 
-- Does each claim's wording sit at its evidence rung — prototype results stated as prototype results?
+- Does each claim's wording sit at the rung established by its primary artifact — prototype results stated as prototype results, conformance cases as conformance cases?
+- Does the implementation or environment described in the manuscript match what the code, configuration, data, and captures actually implement?
+- Does every number reach a real producer, retain the same value across artifact and manuscript, and mean what the prose says it means?
+- Are technical terms, units, equations, thresholds, and isolation or performance claims correct and defined at the precision asserted?
 - Was every cited source actually opened, and does it support the claim as written?
-- Does every number have provenance and meaning?
 - Are standards and regulations used for constraints and operating conditions rather than as proof that a mechanism works?
 - Does every reference carry a role in the paper, cited where it bears, with none present only to reach a count?
 
-Any statement the paper makes about its sources having been checked is backed by `sources.md`.
+Any statement the paper makes about its sources having been checked is backed by `sources.md`. The truth read is complete when every load-bearing empirical claim has been checked at its producer, not merely matched to a ledger row.
 
 ## Substance
 
@@ -24,6 +26,8 @@ Apply **the peer test** ([MANUSCRIPT.md](MANUSCRIPT.md)) to every major section.
 - **Conformance-dominated** — space given to evidence that the implementation matches rules the author wrote, at the cost of material a peer would want.
 
 Give each major section a verdict: **keep**, **deepen**, or **cut**. A section that cannot be deepened within the space is cut, and the freed space goes to the deepest section rather than to a new topic. If cutting leaves too little, the center was too thin and the work returns to step 2.
+
+Then make one clean prose pass using **show, then stop**: where the paper praises, certifies, or announces the quality of its own solution, keep the engineering fact, evidence, boundary, or tradeoff and remove the verdict. Remove workflow terminology that does no work for the reader.
 
 ## The center, at the end
 

@@ -22,16 +22,16 @@ Where real sources cannot reach the required count, the shortfall goes to the au
 
 ## Parity
 
-Before delivery, read the two side by side and check that headings, equations, tables, numbers, figure captions, and the reference list agree in substance. Any divergence is an assembly defect, and the manuscript decides which version is right.
+Before delivery, extract the DOCX text and read it against the manuscript, then compare the rendered pages. Check that headings, equations, tables, numbers, identifiers, quotations, figure captions, and the reference list agree in substance. Any divergence is an assembly defect, and the manuscript decides which version is right.
 
 ## The built document
 
-Substance agreed is not the document working. Open the DOCX and inspect what the reader will actually receive — a rendered read of its pages where the environment allows, and the document's own structure where that is cheaper:
+Substance agreed is not the document working. The build passes two gates: inspect the document structure mechanically, then inspect the pages as rendered. A clean conversion log or a DOCX that opens is not a pass.
 
-- Every equation is a mathematics object, not LaTeX source, literal markup, or plain text that reads correctly and computes wrong.
-- No Markdown survives as visible text — no `**`, `##`, `|` rows, or backticked spans.
-- Every table reaches the page whole: header with its rows, every row and column present, inside the text block, nothing spilling past the margin.
-- Every figure is present, legible at the size printed, and inside the text block rather than overflowing it or silently cropped.
-- Headings, captions, and the reference list are styled as such rather than as body text, and pagination strands no heading from its content, splits no table header from its rows, and leaves no figure where its text cannot reach it.
+- Scan extracted text and document structure for surviving LaTeX delimiters or commands, Markdown markers, missing or duplicated content, and equations that are not mathematics objects.
+- Every table has every row and column inside the text block. When a table must cross a page, its header repeats and rows remain readable; long identifiers wrap without becoming ambiguous.
+- Every figure is present, legible at the size printed, and inside the text block rather than overflowing or silently cropping. Claims about an asset's format or construction match the actual inserted asset.
+- Headings, captions, and the reference list are styled as such rather than as body text. Pagination strands no heading from its content and leaves no figure where its text cannot reach it.
+- Read the rendered pages at delivery size. Equations, punctuation, quotations, tables, and figures must look correct to the reader, not merely exist in the package.
 
-A defect found here is fixed at its source — the manuscript, the asset, or the assembly step — and the document is rebuilt, so the manuscript stays the source of truth.
+A defect found here is fixed at its source — the manuscript, the asset, or the assembly step — and the document is rebuilt and both gates rerun. Delivery waits for a clean structural scan and rendered read.

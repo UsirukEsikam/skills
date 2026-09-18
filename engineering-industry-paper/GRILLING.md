@@ -18,6 +18,8 @@ The length is the one the brief states. With none stated, ask before committing:
 - The page is nearly empty → the center is too shallow. Go deeper into it, and if going deeper keeps yielding nothing consequential, replace the center rather than growing this one.
 - The page fits → check each row's rung in [EVIDENCE.md](EVIDENCE.md) before committing.
 
+Length alone does not make the page fit. Every row must be affordable at the depth the paper promises: enough space to explain the mechanism, the pressure behind it, the evidence, and the bound that matters. A named mechanism that can receive only a label or paragraph is a commitment to remove, not a topic to compress.
+
 Keep the page: step 6 reads the finished draft against it, and it is what makes survey drift visible at the end.
 
 When no real material exists yet, the fit test includes what the author can supply. Step 4 may have to produce the material before the paper can be written, and that is a reason to size the center smaller.

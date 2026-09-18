@@ -11,9 +11,9 @@ Every claim sits at or below the strength of the evidence behind it, and the pap
 5. **Conformance test** — an implementation checked against rules the author specified.
 6. **Reasoning** — analysis from published practice and constraints.
 
-Record each paper claim with its rung in `evidence.md`.
+Record each paper claim with its rung in `evidence.md`. The rung is assigned from the primary artifact that produced the evidence — code, logs, data, captures, or source passage — not from the name given to it in the ledger or manuscript. The ledger is an index, not proof.
 
-A prototype run is evidence about the prototype, and it is written that way: measured on the prototype, not observed in production. A conformance test is evidence that the implementation matches the specified rules — legitimate, and worth space when the rules themselves are the interesting part; otherwise it states its fact and moves on. An argument built from published practice is not dressed as a measurement.
+A prototype run is evidence about the prototype, and it is written that way: measured on the prototype, not observed in production. A conformance test is evidence that the implementation matches the specified rules — legitimate, and worth space when the rules themselves are the interesting part; otherwise it states its fact and moves on. Samples generated from the same rules they test show rule conformance, not detection effectiveness on independent cases. Hard-coded, randomly added, or assumed values are inputs or simulations, not measurements. An argument built from published practice is not dressed as a measurement.
 
 ## Validation
 
@@ -32,7 +32,7 @@ Building a heavier experiment to make a thin center look strong is the academic-
 
 ## Numbers
 
-No number enters the manuscript without provenance and meaning: where it came from (run, log, source document, calculation), what it measures, and the configuration or conditions it belongs to. Derived values are computed from the ledger's structured sources, so the text, tables, and result files cannot drift apart. Prototype configuration values are stated as configuration, never as findings.
+No number enters the manuscript without provenance and meaning: where it came from (run, log, source document, calculation), what it measures, and the configuration or conditions it belongs to. Follow the number to the line, field, formula, or passage that produced it; if that path ends in a constant, generator, assumption, or fabricated timing term, describe that fact instead of calling the value measured. Derived values are computed from the ledger's structured sources, so the text, tables, and result files cannot drift apart. Prototype configuration values are stated as configuration, never as findings.
 
 ## Facts
 
