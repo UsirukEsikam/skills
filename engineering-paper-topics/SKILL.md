@@ -8,7 +8,11 @@ disable-model-invocation: true
 
 Select topics through discussion, then preserve each approved topic as a compact input to `engineering-paper`.
 
-The governing test is **length-fit**: the topic must support meaningful engineering depth inside the allowed paper length. Favor concrete engineering problems that can sustain substantive analysis, implementation, validation, operating experience, or another useful technical treatment. Academic novelty is not required.
+Topic selection fixes the **territory**: the engineering problem, its application context, necessary scope boundaries, and established constraints. It leaves the **route** to `engineering-paper`: research, the paper's exact center and argument, models or algorithms, technical approach, system mechanisms, implementation design, datasets, validation metrics or protocols, manuscript structure, and word allocation.
+
+A title obeys the same boundary. It may name a technology when that technology is the application context, object under study, or an established constraint; it must not turn an agent-proposed solution into part of the approved topic.
+
+The governing test is **length-fit**: the topic must support meaningful engineering depth inside the allowed paper length. Favor concrete engineering problems for which enough engineering substance and evidence are available or realistically obtainable. Academic novelty is not required.
 
 A topic is:
 
@@ -34,19 +38,19 @@ Ask only for missing facts or decisions that would materially change the candida
 
 **Done when** the usable length and the constraints, assets, and preferences that materially shape topic selection are known.
 
-### 2. Find length-fit centers
+### 2. Find length-fit territories
 
-Treat each candidate as a proposed **center**: the concrete engineering problem the paper would examine, not a technology label.
+Treat each candidate as proposed **territory**: a concrete engineering problem in context, not a technology label or proposed solution.
 
-For each plausible center, test:
+For each plausible territory, test:
 
 1. **Application fit** — it addresses a real engineering or industry problem for the intended audience.
-2. **Substance** — available or realistically obtainable material can support meaningful analysis, implementation, validation, operational lessons, or tradeoff discussion.
-3. **Boundary** — the included problem is explicit, and adjacent problems can be excluded without making the topic incoherent.
+2. **Substance** — available or realistically obtainable material can support a useful engineering treatment at depth.
+3. **Boundary** — the problem, context, and exclusions define coherent territory without choosing the downstream route.
 4. **Length-fit** — the important work can be covered at useful depth within the allowed space, without survey drift or filler.
 5. **Feasibility** — the user's access, capabilities, evidence, and time can support the proposed treatment.
 
-Narrow broad ideas by choosing the engineering setting, system boundary, operating constraint, failure mode, decision, or tightly related problem set that carries the most substance. Broaden thin ideas only with closely coupled problems or evidence that deepen the same center; do not attach unrelated subtopics merely to fill space.
+Narrow broad ideas by choosing the engineering setting, system boundary, operating constraint, failure mode, or tightly related problem set that carries the most substance. Broaden thin ideas only with closely coupled problems or evidence that deepen the same territory; do not attach unrelated subtopics merely to fill space.
 
 When a current factual question about a technology, practice, trend, or problem could change a candidate's suitability, verify that fact with available trustworthy sources. Research only the decision-changing question, and retain the source and supported fact for the eventual topic file. Skip external research when the supplied material already supports the selection decision.
 
@@ -56,7 +60,7 @@ When a current factual question about a technology, practice, trend, or problem 
 
 Present a small number of distinct candidates, usually **1–3**, according to how many genuinely fit. Do not fill a quota with weaker candidates. For each, give:
 
-- a working topic or title;
+- a working topic or title that names the problem and context without committing to an unestablished route;
 - the concrete focus;
 - why it fits the submission and the user's context;
 - why its scope fits the allowed length, including the main boundary that keeps it focused;
@@ -81,7 +85,7 @@ Each file contains only established downstream context under these headings, omi
 <Relevant venue, audience, paper type, length, and material format constraints>
 
 ## Engineering focus
-<Concrete problem or tightly related problem set>
+<Concrete problem or tightly related problem set, in its application context>
 
 ## Scope boundaries
 <What is included and the adjacent territory deliberately excluded>
@@ -90,11 +94,11 @@ Each file contains only established downstream context under these headings, omi
 <Concise rationale covering application value, substance, feasibility, and length-fit>
 
 ## Established facts and decisions
-<Material user decisions and verified facts, with source links or supplied-material locations where applicable>
+<Material user-supplied facts or constraints and selection-relevant verified facts, with source links or supplied-material locations where applicable>
 ```
 
 Point to supplied material by path instead of copying it. Preserve only facts and decisions needed to start `engineering-paper`; leave exploratory conversation, rejected candidates, generic background, and selection-process notes out of the file.
 
-Do not add an outline, section plan, thesis, argument structure, research plan, implementation design, validation design, or prose intended for the paper. Those belong to `engineering-paper`.
+Apply the territory/route boundary to every entry, including the title. A route-specific detail belongs only when it enters selection as a user-supplied constraint, a submission requirement, or the reality of an existing system. Feasibility analysis, an agent recommendation, discussion of a possible route, or approval of an agent-proposed candidate does not make that route an established fact or decision. Leave all other downstream choices to `engineering-paper`, and include no paper outline or prose intended for the manuscript.
 
-**Done when** every approved topic has one file in `paper-topics/`, every file records the applicable length constraint and scope boundary, and no unapproved topic or downstream paper work appears in the files.
+**Done when** every approved topic has one file in `paper-topics/`, every file records the applicable length constraint and scope boundary, no unapproved topic appears, and every route-specific detail is traceable to a user-supplied constraint, submission requirement, or existing-system fact.
