@@ -1,108 +1,95 @@
 ---
 name: engineering-paper-topics
-description: Develop and approve focused topics for engineering or industry application papers.
+description: Select and approve focused topics for engineering or industry application papers.
 disable-model-invocation: true
 ---
 
 # Engineering paper topics
 
-Select topics through discussion, then preserve each approved topic as a compact input to `engineering-paper`.
+Select a **problem territory** for an engineering paper, obtain the user's approval, and write a compact handoff to `engineering-paper`.
 
-Topic selection fixes the **territory**: the engineering problem, its application context, necessary scope boundaries, and established constraints. It leaves the **route** to `engineering-paper`: research, the paper's exact center and argument, models or algorithms, technical approach, system mechanisms, implementation design, datasets, validation metrics or protocols, manuscript structure, and word allocation.
+Territory comprises the engineering problem, application context, and boundaries needed to keep the paper coherent. Leave the route—research, exact center and argument, solution design, implementation, datasets, validation, metrics, and manuscript structure—to `engineering-paper`.
 
-A title names the territory, not work to be performed or results already achieved. It may name a technology when that technology is the application context, object under study, or an established constraint; it implies a solution, implementation, deployment, established practice, validation, or evidence strength only when that status is already established.
+## Selection rules
 
-Apply a **provenance gate** throughout candidate discussion and topic files. State a fact or constraint as established only when it is traceable to the user, submission requirements, supplied material, an existing system, or a trustworthy source. Agent synthesis may propose territory and assess fit, but it remains a proposal or assessment; it does not establish inferred facts or downstream choices.
-
-The governing test is **length-fit**: the topic must support meaningful engineering depth inside the allowed paper length. Favor concrete engineering problems for which enough engineering substance and evidence are available or realistically obtainable. Academic novelty is not required.
-
-A topic is:
-
-- **too broad** when the available length would force a field survey, a catalogue of concepts or problems, or superficial coverage;
-- **too narrow** when filling the available length would require repetition, padding, or needless expansion;
-- **length-fit** when its important problems can be treated properly and the available space can be filled with consequential engineering content. This usually means one problem or a small, tightly related problem set rather than an entire technology area.
+- **Length governs.** A suitable topic supports meaningful engineering depth within the available space. It is too broad if it would become a survey or catalogue, and too narrow if it would require filler. Prefer one problem or a tightly coupled problem set.
+- **Reality governs wording.** Establish relevant access to systems, projects, data, implementations, operating experience, and other evidence. Missing evidence is a constraint, not permission to invent a downstream plan. Titles and descriptions must not imply implementation, deployment, established practice, validation, results, or evidence strength that has not been established.
+- **Provenance governs facts.** Keep user statements, submission requirements, supplied material, existing-system facts, and verified sources distinct from agent synthesis. Recommendations, feasibility judgments, and candidate approval do not establish inferred facts or route choices.
+- **Current pressure must earn its place.** Prefer a current engineering problem when a specific, supported change in standards, regulation, operating conditions, scale, cost, reliability, security, workflow, or deployment constraints materially changes its importance or scope. Fashionable terminology and generic “why now” claims do not count.
+- **Approval belongs to the user.** Present only genuinely strong candidates and treat them as proposals until explicitly approved.
 
 ## Process
 
 ### 1. Build the selection brief
 
-Read the supplied material relevant to topic selection, including calls for papers, submission rules, references, project material, professional context, technical capabilities, interests, and existing ideas. Inspect relevant supplied files rather than asking the user to restate them.
+Read relevant supplied files and material directly. Extract only what can change topic selection:
 
-Extract only information that can affect selection:
+- venue, audience, eligible paper type, exclusions, and durable submission constraints;
+- length or another explicit space limit, including layout rules that materially affect usable space;
+- the user's goals, interests, preferences, and candidate ideas;
+- systems, projects, data, tools, experience, implementations, and evidence the user actually holds or can access;
+- deadlines, capabilities, or access limits that affect feasibility.
 
-- submission theme, audience, eligible paper type, and exclusions;
-- length limit and any formatting rules that materially change usable space;
-- accessible systems, projects, data, tools, experience, and evidence, distinguishing material the user actually holds or can access from material that is merely hypothetical;
-- the user's interests, goals, preferences, and candidate ideas;
-- deadlines or feasibility constraints that limit what can be implemented or validated.
+Ask only for missing information that would materially change the candidate set, one blocking uncertainty at a time. Establish the available length or space constraint before recommending topics. Establish evidence or material access before retaining a candidate when that access affects suitability or the strength of its wording.
 
-Ask only for missing facts or decisions that would materially change the candidates. Ask progressively: resolve the next blocking uncertainty rather than presenting a generic questionnaire. If the allowed length is absent, ask for it before recommending topics; accept words, characters, pages plus relevant layout rules, or another explicit space constraint. When evidence availability would change a candidate's suitability or the strength of claim implied by its title, establish what relevant real-world material the user actually has before recommending that candidate.
+**Done when** the governing length and every known constraint, preference, asset, or evidence gap that could materially change selection are clear.
 
-**Done when** the usable length and the constraints, assets, preferences, and evidence availability that materially shape topic selection are known.
+### 2. Select territories
 
-### 2. Find length-fit territories
+Treat each candidate as a concrete engineering problem in context, not a technology label or a proposed solution. Test it for:
 
-Treat each candidate as proposed **territory**: a concrete engineering problem in context, not a technology label or proposed solution.
+1. **Application fit** — useful to the intended engineering or industry audience.
+2. **Substance** — available or realistically obtainable material can support consequential engineering treatment.
+3. **Boundary** — its context, included problem, and exclusions form coherent territory without choosing the route.
+4. **Length-fit** — it permits depth without survey drift or filler.
+5. **Feasibility** — the user's evidence, access, capabilities, and time can support it.
 
-For each plausible territory, test:
+Narrow broad ideas through the engineering setting, system boundary, operating constraint, or failure mode. Broaden thin ideas only with tightly coupled problems that deepen the same territory.
 
-1. **Application fit** — it addresses a real engineering or industry problem for the intended audience.
-2. **Substance** — available or realistically obtainable material can support a useful engineering treatment at depth.
-3. **Boundary** — the problem, context, and exclusions define coherent territory without choosing the downstream route.
-4. **Length-fit** — the important work can be covered at useful depth within the allowed space, without survey drift or filler.
-5. **Feasibility** — the user's access, capabilities, evidence, and time can support the proposed treatment.
+Check for a current pressure only when it could change selection, scope, or priority. Verify decision-changing factual questions with trustworthy sources; otherwise avoid research. Retain a source in the final handoff only when it is needed to understand the approved territory or a durable constraint.
 
-Narrow broad ideas by choosing the engineering setting, system boundary, operating constraint, failure mode, or tightly related problem set that carries the most substance. Broaden thin ideas only with closely coupled problems or evidence that deepen the same territory; do not attach unrelated subtopics merely to fill space.
+Reject or weaken candidates whose required evidence is unavailable. Keep every title no stronger than the established facts and material support.
 
-Run a **pressure scan** across the plausible territories: look for recent or emerging changes in operating conditions, standards, regulation, scale, cost, reliability, security, workflows, or deployment constraints that create or materially alter the engineering problem. A pressure counts only when it is specific, supported, and would change the candidate's selection, scope, or priority. Broad claims about industry demand, transformation, staffing, scale, or compliance do not count without a concrete change and engineering consequence. Omit the “why now” framing when no qualifying pressure exists; a conventional territory remains valid.
+**Done when** a small set of distinct candidates passes all five tests and every evidence-dependent or current-pressure claim is appropriately supported.
 
-When a current factual question about a technology, practice, trend, or problem could change a candidate's suitability, verify that fact with available trustworthy sources. Research only the decision-changing question. Retain the supported fact and source for the eventual topic file only when they are needed to understand the approved territory or an established constraint. Skip external research when the supplied material already supports the selection decision.
+### 3. Obtain approval
 
-Treat evidence reality as part of suitability, not as a downstream plan. If a candidate depends on practice, deployment, data, measurements, or outcomes, establish the relevant material actually available before retaining it. Missing evidence may narrow, weaken, or eliminate the candidate; it does not justify inventing an implementation or validation plan. Keep the title no stronger than the established evidence supports.
+Present **1–3** strong candidates; present fewer rather than fill a quota. For each, state concisely:
 
-**Done when** a small set of distinct candidates passes all five tests, their evidence-dependent wording matches the available material, and any claimed current pressure is supported and decision-relevant.
+- a working title naming the problem and context;
+- the concrete focus and main boundary;
+- why it fits the submission, user context, and available length;
+- any material feasibility condition or uncertainty;
+- a “why now” reason only when a supported current pressure is decision-relevant.
 
-### 3. Propose and discuss candidates
+Do not outline the manuscript, choose its argument, or propose its solution, implementation, dataset, validation, or metrics. Ask which candidate the user approves or wants changed. After a material scope change, reapply all five tests.
 
-Present a small number of distinct candidates, usually **1–3**, according to how many genuinely fit. Do not fill a quota with weaker candidates. For each, give:
+**Done when** the user explicitly approves each selected topic and its scope, and every approved version is unambiguous.
 
-- a working topic or title that names the problem and context without committing to an unestablished route;
-- the concrete focus;
-- why it fits the submission and the user's context;
-- why the problem is worth addressing now, when a supported current pressure gives it that edge;
-- why its scope fits the allowed length, including the main boundary that keeps it focused;
-- any material feasibility condition or uncertainty.
+### 4. Write the handoff
 
-Keep these explanations short and pass every factual statement through the provenance gate. Describe feasibility in terms of available access, evidence, capability, and time rather than by inventing an implementation or validation route. Do not outline sections, design the paper's argument, or begin the downstream paper work.
+Create `paper-topics/` and write one Markdown file per approved topic, using a short filesystem-safe slug. Do not write files for unapproved candidates.
 
-The user owns acceptance. Ask which candidate they approve or want changed. If they question, reject, combine, narrow, or broaden a candidate, address the concern and revise the candidate set. Reapply all five tests after every material scope change; do not treat an earlier fit judgment as carrying over automatically.
-
-**Done when** the user explicitly approves one or more topics and each approved version is unambiguous.
-
-### 4. Write approved topic files
-
-Create `paper-topics/` in the current project and write one Markdown file per approved topic. Use a short filesystem-safe slug; when collision is possible, add a distinguishing suffix. Do not create files for merely proposed topics.
-
-Each file contains only established downstream context under these headings, omitting empty headings:
+Use only the applicable headings and omit empty ones:
 
 ```markdown
 # <Approved topic>
 
 ## Submission constraints
-<Relevant venue, audience, paper type, length, and material format constraints>
+<Durable venue, audience, paper type, length, and material-format constraints>
 
 ## Engineering focus
-<Concrete problem or tightly related problem set, in its application context>
+<Approved engineering problem in its application context>
 
 ## Scope boundaries
-<What is included and the adjacent territory deliberately excluded>
+<Included territory and adjacent territory deliberately excluded>
 
 ## Established context
-<Only material assets, available evidence, existing-system facts, and constraints needed to begin downstream work, with source links or supplied-material locations where applicable>
+<Material assets, evidence, existing-system facts, access limits, and unresolved constraints needed to begin downstream work; link sources or supplied file paths>
 ```
 
-Point to supplied material by path instead of copying it. Preserve only durable context needed to start `engineering-paper`: the approved territory, applicable submission constraints, scope boundaries, and established material or constraints that downstream work must respect. Leave selection rationale, feasibility reasoning, exploratory conversation, rejected candidates, generic background, and selection-process notes out of the file.
+Point to supplied material instead of copying it. Exclude selection rationale, rejected candidates, exploratory discussion, generic background, feasibility recommendations, and process notes.
 
-Apply the territory/route boundary to every entry, including the title. A route-specific detail belongs only when it enters selection as a user-supplied constraint, a submission requirement, or the reality of an existing system. Feasibility analysis, an agent recommendation, discussion of a possible route, or approval of an agent-proposed candidate does not make that route an established fact or decision. Preserve a missing asset, access limit, or evidence gap as a constraint; do not resolve it into a choice of solution, system form, research method, substitute material, or validation approach. Leave research, argument, implementation, metrics, validation, manuscript structure, and explanatory prose to `engineering-paper`.
+Apply the territory/route boundary to every entry. Include a route-specific detail only when it is already a user-supplied constraint, submission requirement, or existing-system fact. Preserve missing assets and evidence gaps as constraints; do not convert them into research, design, implementation, dataset, validation, metric, or manuscript decisions.
 
-**Done when** every approved topic has one compact file in `paper-topics/`, every file records the applicable length constraint and scope boundary, no unapproved topic appears, every route-specific detail is traceable to a user-supplied constraint, submission requirement, or existing-system fact, every unresolved constraint remains a constraint, and no title or entry claims downstream work or status that has not been established.
+**Done when** every approved topic has one compact file containing its length constraint, approved problem and scope, and only the established material or constraints needed for `engineering-paper`; no entry or title claims unestablished work, status, or evidence.
