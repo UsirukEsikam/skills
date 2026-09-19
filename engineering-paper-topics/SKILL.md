@@ -28,27 +28,18 @@ Choose a **problem territory**, not a prewritten paper: the engineering problem,
 
 6. **Present candidates concisely.** First state the established constraints. Then give the strong candidates, each with a working title, bounded problem territory, and a brief suitability judgment labeled as agent synthesis. The user makes the final selection and may revise its wording or scope.
 
-7. **Write the handoff after explicit approval.** Create a compact Markdown topic file for `engineering-paper` containing only:
+7. **Write the handoff after explicit approval.** Create a minimal Markdown topic file for `engineering-paper`:
 
 ```markdown
 # <approved working title>
 
-## Submission constraints
-- <durable length, format, audience, or deadline constraints>
-
 ## Approved problem territory
-- **Engineering problem:** ...
-- **Application context:** ...
-- **Scope exclusions:** <only exclusions explicitly established by the user>
+- <approved engineering problem in its application context>
 
-## Available material
-- **Material:** <confirmed source or asset>
-  **Established role:** <the role established for that material>
-
-## Evidence access
-- <confirmed access or limitation>
+## Source references
+- <source that downstream needs to locate>
 ```
 
-Omit empty sections and optional fields rather than filling them with guesses. Every entry must be supported by explicit user input or approval, submission requirements, supplied material within its established role, an existing system, or direct verification. Record constraints as the established facts or limitations; record a response to one only when that response is separately established. Topic approval establishes the approved territory, not surrounding agent synthesis. `engineering-paper` owns downstream research, argument, working-boundary, design, implementation, and validation decisions.
+Omit empty optional sections. A source reference carries only its established provenance and authority; its inclusion establishes no broader role. Topic approval applies only to the approved territory, not surrounding agent synthesis. `engineering-paper` owns all downstream interpretation and paper-development decisions.
 
-Completion means every selected topic has been explicitly approved, and each topic file is sufficient for `engineering-paper` to begin without inheriting unsupported claims or premature decisions.
+Completion means every selected topic has been explicitly approved, and each topic file contains the approved territory plus only needed source references.
