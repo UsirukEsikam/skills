@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Engineering Paper Topics
 
-Choose a **problem territory**, not a prewritten paper: the engineering problem, application context, and boundaries that make it coherent. Stop before research, the paper's exact center or argument, solution design, implementation, datasets, validation, metrics, or manuscript structure; `engineering-paper` owns those decisions.
+Choose a **problem territory**, not a prewritten paper: the engineering problem, application context, and boundaries that make it coherent. Its specificity comes from the structure of the problem, not the shape of a response. Stop before research, the paper's exact center or argument, solution design, implementation, datasets, validation, metrics, or manuscript structure; `engineering-paper` owns those decisions.
 
 ## Process
 
@@ -20,13 +20,13 @@ Choose a **problem territory**, not a prewritten paper: the engineering problem,
    - one engineering problem;
    - a concrete application context;
    - boundaries tight enough for the available space;
-   - a credible path to depth under the established material constraints.
+   - enough consequential problem structure for depth under the established material constraints.
 
    Prefer a current problem only when an established, decision-relevant change makes the engineering problem materially different or more important now. Fashionable terminology is not a rationale.
 
-5. **Screen the wording.** Titles, descriptions, and claim strength must match what has actually been established. Do not turn feasibility judgments or recommendations into facts.
+5. **Screen the wording.** Keep titles and descriptions focused on the problem, and match their claim strength to what has actually been established. Do not turn feasibility judgments or recommendations into facts.
 
-6. **Present candidates concisely.** First state the established constraints. Then give the strong candidates, each with a working title, bounded problem territory, and a brief suitability judgment labeled as agent synthesis. The user makes the final selection and may revise its wording or scope.
+6. **Present candidates concisely.** First state the established constraints. Then give the strong candidates, each with a working title, problem territory, and a brief suitability judgment labeled as agent synthesis. The user makes the final selection and may revise its wording or scope.
 
 7. **Write the handoff after explicit approval.** Create a minimal Markdown topic file for `engineering-paper`:
 
