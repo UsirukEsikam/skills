@@ -14,7 +14,7 @@ Choose a **problem territory**, not a prewritten paper: the engineering problem,
 
 2. **Fix the space constraint first.** Establish the paper's available length or an equivalent limit before recommending topics. If it is absent, ask for it and wait. Judge every candidate by whether that space permits meaningful engineering depth without survey drift or filler.
 
-3. **Resolve only consequential unknowns.** Ask the smallest next question whose answer could change topic suitability or honest wording, then reassess. In particular, establish real access to data, systems, implementations, operational experience, or other evidence when a candidate would depend on it. Treat missing access as a constraint, not permission to assume it.
+3. **Resolve only consequential unknowns.** Ask the smallest next question whose answer could change topic suitability or honest wording, then reassess. In particular, establish real access to data, systems, implementations, operational experience, or other evidence when a candidate would depend on it. When intended contribution mode could materially change candidate selection, scope, or title strength, establish it before locking the topic rather than inferring it from capability or available evidence. Treat missing access as a constraint, not permission to assume it.
 
 4. **Shortlist.** Develop a small set of genuinely strong problem territories, usually 1–3. Do not fill a quota with weaker options. Each must have:
    - one engineering problem;
@@ -39,7 +39,7 @@ Choose a **problem territory**, not a prewritten paper: the engineering problem,
 ## Approved problem territory
 - **Engineering problem:** ...
 - **Application context:** ...
-- **Scope boundaries:** ...
+- **Problem boundary:** <where this territory ends relative to adjacent problems>
 
 ## Established material and constraints
 - <confirmed available material, evidence access, and material limitations>
