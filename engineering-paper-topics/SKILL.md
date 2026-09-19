@@ -39,11 +39,16 @@ Choose a **problem territory**, not a prewritten paper: the engineering problem,
 ## Approved problem territory
 - **Engineering problem:** ...
 - **Application context:** ...
+- **Scope exclusions:** <only exclusions explicitly established by the user>
 
-## Established material and constraints
-- <confirmed available material, evidence access, material limitations, and any scope exclusion explicitly established by the user>
+## Available material
+- **Material:** <confirmed source or asset>
+  **Established role:** <the role established for that material>
+
+## Evidence access
+- <confirmed access or limitation>
 ```
 
-Omit empty sections rather than filling them with guesses. Record the approved engineering problem and application context, plus only other details supported by the user, submission requirements, supplied material within its established role, an existing system, or direct verification. Preserve each established constraint as the fact or limitation itself; a downstream response to it belongs here only when that response has also been explicitly established. Preserve any scope exclusion the user explicitly established as context downstream must respect; do not infer additional exclusions or manufacture a boundary description. Candidate approval establishes the territory, not every agent-authored detail surrounding it; unsupported agent synthesis remains synthesis even when the user requests the handoff. Do not include candidate comparisons, feasibility claims, proposed arguments, research findings, solution designs, implementation plans, datasets, validation methods, metrics, or manuscript structure; `engineering-paper` determines the exact center and working boundaries downstream.
+Omit empty sections and optional fields rather than filling them with guesses. Every entry must be supported by explicit user input or approval, submission requirements, supplied material within its established role, an existing system, or direct verification. Record constraints as the established facts or limitations; record a response to one only when that response is separately established. Topic approval establishes the approved territory, not surrounding agent synthesis. `engineering-paper` owns downstream research, argument, working-boundary, design, implementation, and validation decisions.
 
 Completion means every selected topic has been explicitly approved, and each topic file is sufficient for `engineering-paper` to begin without inheriting unsupported claims or premature decisions.
